@@ -1,0 +1,132 @@
+body {
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+/* CSS LOGO */
+
+.logoMonsterCoffe {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.logo-link {
+    display: block; /* Convierte el enlace en un elemento de bloque para ocupar todo el ancho del contenedor */
+}
+
+.logoMonsterCoffe img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.logoMonsterCoffe {
+    max-width: 30vh; /* Establece un ancho máximo para el contenedor del logo */
+    margin: 0 auto; /* Centra el contenedor en el centro de su contenedor padre */
+}
+
+/* BarraNav */
+
+.navbar-toggler{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+
+/*  Formulario */
+
+.formulario {
+    max-width: 600px; /* Establece un ancho máximo para el formulario */
+    margin: auto; /* Centra el formulario horizontalmente */
+}
+
+/* CSSBoton */
+.btn-custom {
+    background-color: #8B4513; 
+    color: #fff; 
+}
+
+.btn-custom:hover {
+    background-color: #A0522D; 
+}
+
+/* CheckBOX */
+.mbc-container {
+    display: flex;
+    align-items: center; 
+}
+
+.mbc-container .form-check-input {
+    margin-right: 10px; 
+}
+
+/* CSSFondoDePantalla+ */
+
+.container-fluid {
+    background-color: #ab754e; 
+    color: #cac9b7;
+    font-family: 'Arial', sans-serif; 
+ 
+}
+
+.encabezado {
+    background-color: hsl(52, 75%, 80%);
+    border-top: 20px solid hsl(33, 75%, 46%);
+}
+
+
+
+
+/* ************************Compra*************************** */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#comanda {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+p {
+    font-weight: bold;
+}
+/* *************************************************** */
