@@ -27,16 +27,15 @@
     
 
 
-     <!---------------------------------- Barra de Navegacion -------------------------------->
+     <!-- Barra de Navegacion -->
   <nav class="navbar navbar-expand-lg justify-content-center">
 
-
       <!-- <div class="container-fluid"> -->
-        <div class="justify-content-center">       
+        <div class="justify-content-center">     
 
         <!-- LOGO -->
   <div class="logoMonsterCoffe row">
-    <a class="logo-link" href="indexComprar.html">
+    <a class="logo-link" href="index.html">
       <img class="logoMonsterCoffe" src="img/158-removebg-preview.png" alt="Logo MC">
     </a>
   </div>
@@ -49,7 +48,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="historiaDelCafe.html">Historia del Cafe</a>
@@ -58,7 +57,7 @@
               <a class="nav-link" href="sucursales.html">Sucursales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="indexComprar.html">Comprar</a>
+              <a class="nav-link" href="index.html">Comprar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-disabled="true" href="contacto.html">Contacto</a>
@@ -71,7 +70,28 @@
 
 
 
-   
+    <!-- Formulario Pedidods -->
+    <div class="formulario row">
+    <form class="container mt-5" action="HTML_MonsterCoffe/compra.html" >
+        <div class="container mt-2">
+            <label for="nombrePedidol1" class="form-label mt-3">Nombre</label>
+            <input type="text" class="form-control" id="nombrePedidol2" aria-describedby="nombre" required>
+
+            <div id="nombre" class="form-text mt-2">Nunca compartiremos tu nombre con nadie más.</div>
+        </div>
+
+        <div class="mb-container mt-2">
+            <label for="numeroDePersonas" class="form-label  mt-3">Numero de personas.</label>
+            <input type="number" class="form-control" id="numeroDePersonas" min="0" required>
+        </div>
+
+        <div class="mbc-container form-check container mt-2">
+            <input type="checkbox" class="form-check-input mt-3" id="exampleCheck1">
+            <label class="form-check-label container mt-3" for="exampleCheck1">Listo</label>
+        </div>
+        <button type="submit" class="btn btn-custom mt-2">Enviar</button>
+    </form>
+</div>
 
 
 <!-- jsDeliv Bootstrap  -->

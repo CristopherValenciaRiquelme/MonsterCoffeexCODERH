@@ -26,3 +26,19 @@ function agregarItem() {
         alert("Ingrese un plato válido y un precio mayor a cero.");
     }
 }
+
+//////////////////////////////////// barra de nav///////////////////
+
+document.addEventListener('DOMContentLoaded', function() {
+    var currentPage = window.location.pathname.split('/').pop();
+    var navLinks = document.querySelectorAll('.navbar-nav a');
+
+    navLinks.forEach(function(link) {
+        var linkPath = link.getAttribute('href').split('/').pop();
+
+        if (linkPath === currentPage) {
+            link.classList.add('active');
+        }
+    });
+});
+
